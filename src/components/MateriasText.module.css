@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.materia {
+  color: #443235;
+  font-family: m;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.45;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.author {
+  display: grid;
+  justify-content: flex-end;
+}
+
+.author:after{
+  content: "";
+  background: #FDD089;
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+}
+

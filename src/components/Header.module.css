@@ -1,0 +1,16 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.logo{
+  width: 80px;
+}
+input{
+  border-radius: 3px;
+  border: 2px solid #FDD089;  
+  outline-color: #EC9152;
+  text-indent: 10px;
+}
