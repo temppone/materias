@@ -15,9 +15,6 @@
 </clipPath>
 </defs>
 <g id="surface1">
-<rect x="0" y="0" width="810" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
-<rect x="0" y="0" width="810" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
-<rect x="0" y="0" width="810" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <g clip-path="url(#clip1)" clip-rule="nonzero">
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(99.609375%,96.859741%,84.309387%);fill-opacity:1;" d="M 363.394531 29.0625 L 153.257812 29.0625 L 298.609375 420.570312 L 508.742188 420.570312 L 363.394531 29.0625 "/>
 </g>
