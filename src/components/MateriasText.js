@@ -20,7 +20,7 @@ const MateriasText = () => {
       }
     }
     fetchMateria(
-      "https://newsapi.org/v2/top-headlines?country=br&apiKey=0ffcfec384c045b3abcf61819db38d9d"
+      "https://newsapi.org/v2/top-headlines?country=br&apiKey=API_KEY"
     );
   }, []);
 
