@@ -2,6 +2,52 @@ body {
   margin: 0 auto;
   max-width: 840px;
   font-family: "Montserrat", sans-serif;
-  background: #FAF8F0;
+  background: #faf8f0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap');
+a {
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+.content {
+  flex: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap");
+
+.animeDown {
+  transform: translateX(0px);
+  opacity: 0;
+  animation: animeDown 0.3s forwards;
+}
+
+@keyframes animeDown {
+  to {
+    transform: inital;
+    opacity: initial;
+  }
+}
+
+.growUp {
+  animation: growUp 3s infinite;
+  background: #fdd089;
+  content: "";
+  width: 200px;
+  height: 3px;
+  margin: 80px auto;
+}
+
+@keyframes growUp {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    trasnform: scaleX(1);
+  }
+}

@@ -8,9 +8,9 @@
   letter-spacing: 0;
   text-transform: none;
   text-align: left;
-
   font-family: "Montserrat", sans-serif;
 }
+
 
 .materia:after {
   background: #fdd089;
@@ -18,18 +18,19 @@
   width: 200px;
   height: 3px;
   display: block;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
-.authorBox {
+.linkBox {
   display: flex;
-  flex-flow: row wrap;  
+  flex-flow: row wrap;
   justify-content: flex-end;
   align-items: center;
   font-size: 1.6rem;
+  color: #443235;
 }
 
-.authorBar {
+.linkBar {
   display: grid;
   content: "";
   background: #fdd089;
@@ -37,4 +38,12 @@
   height: 20px;
   align-items: baseline;
   margin-right: 10px;
+}
+
+.materia a {
+  color: #443235;
+  padding: 5px;
+}
+.materia a:hover {
+  color: #6b5149;
 }
